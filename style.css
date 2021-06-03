@@ -102,7 +102,7 @@ section{
 }
 
 /*button*/
-button{
+button[name="av"]{
   position: relative;
   height: 60px;
   width: 200px;
@@ -116,7 +116,7 @@ button{
   font-family: 'UnifrakturCook', cursive;
   text-transform: uppercase;
 }
-button:before{
+button[name="av"]:before{
   position: absolute;
   content: '';
   top: -2px;
@@ -132,7 +132,7 @@ button:before{
   transition: opacity .3s ease-in-out;
   animation: animate 20s linear infinite;
 }
-button:hover:before{
+button[name="av"]:hover:before{
   opacity: 1;
 }
 button:hover:active{
